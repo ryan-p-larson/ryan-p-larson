@@ -1,17 +1,23 @@
-<h1 align="center">Hi 👋, I'm Ryan</h1>
-
+<h1 align="center">👋 Hi there, I'm Ryan</h1>
 
 <div align="center">
-  <big>I Like data.</big>
 
   [![Gmail Badge](https://img.shields.io/badge/-ryalarson11@gmail.com-D14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ryalarson11@gmail.com)](mailto:ryalarson11@gmail.com) [![Linkedin Badge](https://img.shields.io/badge/-Ryan_Larson-0077B5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ryanpatricklarson/)](https://www.linkedin.com/in/ryanpatricklarson/) [![orcid shield](https://img.shields.io/badge/-0000_0001_5825_2778-A6CE39?style=flat-square&label=ORCID&logo=orcid&logoColor=white&link=https://orcid.org/0000-0001-5825-2778)](https://orcid.org/0000-0001-5825-2778)
 
 </div>
 
-<code>Programming: Languages</code>
+<br/>
+<br/>
+<br/>
 
-![python shield](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript Badge](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)  ![r shield](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
+<details>
+  <summary><code>Programming: Languages</code></summary>
 
+  <br/>
+
+  ![python shield](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript Badge](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)  ![r shield](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
+
+</details>
 <details>
   <summary><code>Programming: Libraries</code></summary>
 
@@ -22,21 +28,17 @@
   ![anaconda shield](https://img.shields.io/badge/-Anaconda-42B029?style=flat-square&logo=anaconda&logoColor=white) ![pandas shield](https://img.shields.io/badge/-pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![jupyter shield](https://img.shields.io/badge/-Jupyter_Notebooks-F37626?style=flat-square&logo=jupyter&logoColor=white) ![tensorflow shield](https://img.shields.io/badge/-Tensorflow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 </details>
 
-<br/>
-
 <details>
   <summary><code>Tools: GUI</code></summary>
 
   <br/>
 
   ![qgis shield](https://img.shields.io/badge/-QGIS-589632?style=flat-square&logo=qgis&logoColor=white) ![tableau shield](https://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-
   ![postman shield](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
   ![microsoft-excel shield](https://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
 </details>
 
-<br/>
+
 
 <details>
   <summary><code>Tools: Design</code></summary>
@@ -54,8 +56,6 @@
 
 <details>
   <summary><code>Tools: CLI</code></summary>
-
-  <br/>
 
   ![git shield](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![vim shield](https://img.shields.io/badge/-Vim-019733?style=flat-square&logo=vim&logoColor=white) ![gnubash shield](https://img.shields.io/badge/-BASH-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 </details>
