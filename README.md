@@ -8,7 +8,6 @@
 
 <br/>
 <br/>
-<br/>
 
 <details>
   <summary><code>Programming: Languages</code></summary>
@@ -23,7 +22,11 @@
 
   <br/>
 
+  > .js
+
   ![nodejs shield](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![npm shield](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm&logoColor=white) ![yarn shield](https://img.shields.io/badge/-Yarn-2C8EBB?style=flat-square&logo=yarn&logoColor=white) ![react shield](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white) ![redux shield](https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white) ![Webpack Badge](https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=white) ![babel shield](https://img.shields.io/badge/-Babel-F9DC3E?style=flat-square&logo=babel&logoColor=black) ![eslint shield](https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) ![jest shield](https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white) ![mocha shield](https://img.shields.io/badge/-Mocha-8D6748?style=flat-square&logo=mocha&logoColor=white)
+
+  > .py
 
   ![anaconda shield](https://img.shields.io/badge/-Anaconda-42B029?style=flat-square&logo=anaconda&logoColor=white) ![pandas shield](https://img.shields.io/badge/-pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![jupyter shield](https://img.shields.io/badge/-Jupyter_Notebooks-F37626?style=flat-square&logo=jupyter&logoColor=white) ![tensorflow shield](https://img.shields.io/badge/-Tensorflow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 </details>
@@ -34,11 +37,11 @@
   <br/>
 
   ![qgis shield](https://img.shields.io/badge/-QGIS-589632?style=flat-square&logo=qgis&logoColor=white) ![tableau shield](https://img.shields.io/badge/-Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+
   ![postman shield](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+
   ![microsoft-excel shield](https://img.shields.io/badge/-Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
 </details>
-
-
 
 <details>
   <summary><code>Tools: Design</code></summary>
@@ -52,15 +55,11 @@
   ![figma shield](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![blender shield](https://img.shields.io/badge/-Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
 </details>
 
-<br/>
-
 <details>
   <summary><code>Tools: CLI</code></summary>
 
   ![git shield](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![vim shield](https://img.shields.io/badge/-Vim-019733?style=flat-square&logo=vim&logoColor=white) ![gnubash shield](https://img.shields.io/badge/-BASH-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 </details>
-
-<br/>
 
 <details>
   <summary><code>Platforms</code></summary>
@@ -72,8 +71,6 @@
   ![algolia shield](https://img.shields.io/badge/-Algolia-5468FF?style=flat-square&logo=algolia&logoColor=white) ![elasticsearch shield](https://img.shields.io/badge/-ElasticSearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 </details>
 
-<br/>
-
 <details>
   <summary><code>Databases</code></summary>
 
@@ -83,8 +80,6 @@
 
   ![mongodb shield](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 </details>
-
-<br/>
 
 <details>
   <summary><code>Operating Systems</code></summary>
@@ -97,8 +92,6 @@
 
   ![apple shield](https://img.shields.io/badge/-MacOS-999999?style=flat-square&logo=apple&logoColor=white)
 </details>
-
-<br/>
 
 <details>
   <summary><code>Markup & Schemas</code></summary>
