@@ -30,8 +30,8 @@ src/images/di.png: src/images/di-*.png
 # 0. Clean command
 .PHONY: clean force
 clean :
+	# find . -type f -name '*.aux' -exec rm {} +
 	find . -type f -name '*.log' -exec rm {} +
-	find . -type f -name '*.aux' -exec rm {} +
 	find . -type f -name '*.out' -exec rm {} +
 	find . -type f -name '*.fls' -exec rm {} +
 	find . -type f -name '*.synctex.gz' -exec rm {} +
