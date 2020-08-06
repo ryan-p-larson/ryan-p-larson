@@ -1,0 +1,45 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[11pt, letterpaper]{awesome-cv}
+\input{shared.tex}
+\geometry{landscape}
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\definecolor{urlrgb}{HTML}{0366D6}
+\hypersetup{colorlinks=true, urlcolor=urlrgb}
+
+% Captions and caption fonts
+\usepackage{caption}
+\DeclareCaptionFont{CaptionLabelFn}{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1\\}
+\DeclareCaptionFont{CaptionTextFn}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}
+\DeclareCaptionLabelFormat{CaptionLabelFmt}{#1}
+\captionsetup[figure]{
+  font=CaptionTextFn,
+  labelfont=CaptionLabelFn,
+  labelformat=CaptionLabelFmt,
+  labelsep=newline,
+  justification=raggedright,
+  format=plain,
+  width=0.33\linewidth
+}
+
+% Figure command
+\newcommand{\cvexample}[4]{
+  \begin{figure}
+    \renewcommand{\figurename}{#1}
+    \centering
+    \centerline{\includegraphics[keepaspectratio=true, interpolate, width=#3\linewidth]{#2}}
+    \caption{#4}
+    \label{fig:#1}
+    \makecvfooter{\today}{Ryan Larson}{Example \#\thepage}
+  \end{figure}
+  \newpage
+}
+
+\begin{document}
+  \input{examples/example1.tex}
+  \input{examples/example2.tex}
+  \input{examples/example3.tex}
+\end{document}

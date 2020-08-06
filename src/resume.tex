@@ -1,0 +1,42 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[11pt, letterpaper]{awesome-cv}
+% \usepackage{showframe}
+
+%---------------------------------------------------------------------------------
+% CONFIGURATIONS
+%---------------------------------------------------------------------------------
+\input{shared}
+\hypersetup{hidelinks}
+
+%---------------------------------------------------------------------------------
+% Change CV skills to left alignment
+%---------------------------------------------------------------------------------
+\renewenvironment{cvskills}{
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{-2.0mm}
+  \begin{center}
+    \setlength\tabcolsep{1ex}
+    \setlength{\extrarowheight}{0pt}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l L{\textwidth * \real{0.9}}}
+}{%
+  \end{tabular*}
+  \end{center}
+}
+
+
+%---------------------------------------------------------------------------------
+\begin{document}
+  % Header:  Give optional argument to change alignment(C: center, L: left, R: right)
+  \makecvheader[C]
+
+  % Footer: Print the footer with 3 arguments(<left>, <center>, <right>){\today}{\name}{\thepage}
+  \makecvfooter{\today}{Ryan Larson}{Résumé}
+
+  %	CV/RESUME CONTENT
+  \input{resume/education.tex}
+  \input{resume/experience.tex}
+  \input{resume/skills.tex}
+  \input{resume/projects.tex}
+
+\end{document}

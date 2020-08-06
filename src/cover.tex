@@ -1,0 +1,37 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[11pt, letterpaper]{awesome-cv}
+\usepackage[english]{babel}
+\input{shared.tex}
+\hypersetup{hidelinks}
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION: All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+\recipient
+  {The Washington Post Graphics Team}
+  {The Washington Post\newline1301 K St NW,\newline Washington, DC 20071}
+
+\letterdate{\today}
+
+\lettertitle{Job Application for Graphics Editor}
+
+\letteropening{Dear Graphics Director Chiqui Esteban, Managing Editor Tracy Grant, and Senior Editor for Recruiting Carla Broyles,}
+
+\letterclosing{Best regards,}
+
+% Any enclosures with the letter
+\letterenclosure[Attached]{Resume, Portfolio}
+
+
+\begin{document}
+  \makecvheader[C]
+
+  \makelettertitle
+
+  \input{cover/body.tex}
+
+  \makeletterclosing
+
+  \makecvfooter{\today}{Ryan Larson}{Cover Letter}
+\end{document}
