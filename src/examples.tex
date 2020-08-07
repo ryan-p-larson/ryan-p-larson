@@ -1,11 +1,11 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-\documentclass[11pt, letterpaper]{awesome-cv}
+\documentclass[11pt, letterpaper, final]{awesome-cv}
 \input{shared.tex}
 \geometry{landscape}
 
 \usepackage{graphicx}
-\graphicspath{ {./images/} }
+\graphicspath{{./images/}}
 
 \definecolor{urlrgb}{HTML}{0366D6}
 \hypersetup{colorlinks=true, urlcolor=urlrgb}
@@ -22,18 +22,20 @@
   labelsep=newline,
   justification=raggedright,
   format=plain,
-  width=0.33\linewidth
+  width=0.375\linewidth
 }
+
 
 % Figure command
 \newcommand{\cvexample}[4]{
   \begin{figure}
     \renewcommand{\figurename}{#1}
-    \centering
-    \centerline{\includegraphics[keepaspectratio=true, interpolate, width=#3\linewidth]{#2}}
-    \caption{#4}
-    \label{fig:#1}
     \makecvfooter{\today}{Ryan Larson}{Example \#\thepage}
+    \centering
+    \begin{tabular}{@{}c@{}}
+      \includegraphics[keepaspectratio=true, interpolate, width=#3\linewidth]{#2}
+    \end{tabular}
+    \caption{#4}
   \end{figure}
   \newpage
 }

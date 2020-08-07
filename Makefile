@@ -1,15 +1,16 @@
 
-
+LATEX=latexmk -pdf -xelatex -pvc
 
 
 # 3. Combining all output
-.PHONY: all view
+.PHONY: all view watch
 all: clean force Ryan_Larson-Graphics_Application.pdf
-
 view: Ryan_Larson-Graphics_Application.pdf
 	epdfview $<
+watch:
+	$(LATEX) Ryan_Larson-Graphics_Application.pdf
 
-Ryan_Larson-Graphics_Application.pdf: build/resume.pdf build/cover.pdf build/examples.pdf
+Ryan_Larson-Graphics_Application.pdf: build/resume.pdf build/examples.pdf
 	pdftk $^ cat output $@
 
 # 2. Building individual PDFs
