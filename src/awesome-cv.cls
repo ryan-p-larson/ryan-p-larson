@@ -651,8 +651,7 @@
   \end{center}
 }
 
-% Define a (paper)
-% Usage: \cvhonor{<title>}{<location>}{<date>}
+% Define a (paper). Usage: \cvhonor{<title>}{<location>}{<date>}
 \newcommand*{\cvhonor}[2]{%
   % OLD
   %\altText{}{\textbullet} & \descriptionstyle{#1} & \altText{}{\honorlocationstyle{#2}} \\
@@ -719,10 +718,10 @@
   \end{tabular*}
   \end{center}
 }
-% Define a line of project info
-% Usage: \project{<title>}{<description>}{<url>}
+
+% Define a line of project info. Usage: \project{<title>}{<description>}{<url>}
 \newcommand*{\project}[3]{%
-	\skilltypestyle{#1} & \skillsetstyle{#2} & \altText{}{\honorlocationstyle{#3}} \\
+	\skilltypestyle{#1} & \skillsetstyle{#2} & \altText{}{\honorlocationstyle{#3}}\\
 }
 
 %-------------------------------------------------------------------------------
