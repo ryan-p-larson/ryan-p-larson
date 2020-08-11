@@ -119,6 +119,6 @@
 | Higher Knowledge Graph ([source](https://github.com/ryan-p-larson/higher-knowledge-graph), [demo](https://ryan-p-larson.github.io/higher-knowledge-graph)) | ![Exploring a College Course Graph](src/images/higher-knowledge-graph.gif) |
 | [International Writer's Program Mapping Project](https://www.github.com/ryan-p-larson/iwp) | <img src="src/images/iwp.gif"></img> |
 | [Geographic Visualization Portfolio](https://geog3540.github.io/ryan-p-larson/) | <img src="src/images/geoviz-portfolio.png"></img> |
-| [Hispanic Vote in Iowa](https://github.com/ryan-p-larson/DI-Hisp), see it in the [Daily Iowan](http://daily-iowan.com/2016/11/02/el-voto/). | <img src="src/images/hispanicmultiples.png"></img> <img src="src/images/hispanicmap.png"></img> <img src="src/images/horizontal-bar.png"></img> |
+| [Hispanic Vote in Iowa](https://github.com/ryan-p-larson/DI-Hisp), see it in the [Daily Iowan](http://daily-iowan.com/2016/11/02/el-voto/). | <img src="src/images/di-2.png"></img> <img src="src/images/di-1.png"></img> <img src="src/images/di-3.png"></img> |
 | [Iowa City Arrests](https://github.com/ryan-p-larson/arrests) | <img src="src/images/arrests.gif"></img> |
 | *Real-time headpose tracking using OpenCV and webcams* (closed source :[ ) | <img src="src/images/headpose-opencv.gif"></img> |

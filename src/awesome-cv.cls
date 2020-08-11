@@ -328,12 +328,10 @@
 % Usage: \lettertitle{<title>}
 \newcommand*{\lettertitle}[1]{\def\@lettertitle{#1}}
 
-% Defines the date for letter (cover letter only)
-% Usage: \letterdate{<date>}
+% Defines the date for letter (cover letter only). Usage: \letterdate{<date>}
 \newcommand*{\letterdate}[1]{\def\@letterdate{#1}}
 
-% Defines a message of opening for letter (cover letter only)
-% Usage: \letteropening{<message>}
+% Defines a message of opening for letter (cover letter only). Usage: \letteropening{<message>}
 \newcommand*{\letteropening}[1]{\def\@letteropening{#1}}
 
 % Defines a message of closing for letter (cover letter only)

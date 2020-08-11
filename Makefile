@@ -6,9 +6,9 @@ FINAL=Ryan_Larson_Graphics_Reporter.pdf
 LATEX=xelatex -shell-escape -interaction=nonstopmode -no-file-line-error
 LATEXMK=latexmk -pdf -xelatex -pvc
 MONTAGE=montage -border 15 -background white -bordercolor white -geometry +0+0
-# figures/%.pdf: figures/%.svg  ## Figures for the manuscript
-#     inkscape -C -z --file=$< --export-pdf=$@
 INKSCAPE=inkscape -C -z
+# figures/%.pdf: figures/%.svg
+#     inkscape -C -z --file=$< --export-pdf=$@
 
 
 # 3. Combining all output
@@ -20,7 +20,7 @@ view: $(FINAL)
 # watch:
 # 	$(LATEX) $(FINAL)
 
-$(FINAL): build/resume.pdf build/examples.pdf
+$(FINAL): build/resume.pdf build/cover.pdf build/examples.pdf
 	pdftk $^ cat output $@
 
 # 2. Building individual PDFs
@@ -29,8 +29,8 @@ builds: $RESUME $COVER $EXAMPLES
 RESUME=$(BUILD)/resume.pdf
 COVER=$(BUILD)/cover.pdf
 
-EXAMPLES=$(BUILD)/examples.pdf
-$(EXAMPLES): $(EGIMAGES)
+$(BUILD)/examples.pdf: $(EGIMAGES)
+# $(EXAMPLES):
 
 $(BUILD)/%.pdf: src/%.tex src/%/*.tex src/awesome-cv.cls src/shared.tex
 	cd src && $(LATEX) $(notdir $<)
@@ -47,7 +47,7 @@ $(EXAMPLE_TWO): $(IMAGES)/di-*.png
 	$(MONTAGE) -tile 2x $^ $@
 
 $(EXAMPLE_THR): $(IMAGES)/collusion-network-on-twitter.png  $(IMAGES)/repeated-fake-news.png
-	$(MONTAGE) -tile 2x $^ $@
+	$(MONTAGE) -tile 1x2 $^ $@
 
 $(IMAGES)/college.png: $(IMAGES)/cropped_0.png $(IMAGES)/cropped_1.png $(IMAGES)/cropped_2.png
 	$(MONTAGE) -tile 1x3 $^ $@
