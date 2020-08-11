@@ -102,9 +102,9 @@
 
 | **Publication** | Preview |
 |---|---|
-| *CarSentoGram: GeoVisual Text Analytics for Exploring Variation in Public Discourse on Twitter* ([demo](https://ryan-p-larson.github.io/paper/), [source](https://github.uiowa.edu/ckoylu/immigration), [publication](https://www.tandfonline.com/doi/full/10.1080/15230406.2018.1510343)). | ![First page of publication](src/images/CarSentoGram-3.png) ![Topic Dashboard](src/images/CarSentoGram-1.png) ![Tweet Data Pipeline](src/images/CarSentoGram-2.png) |
-| Cartogrid, from [*Understanding the Effect of the Travel Ban on Immigration Tweets in the United States*](https://github.com/ryan-p-larson/gviz) in Political Networks 2017 proceedings. | <img src="src/images/cartogrid.png"></img> |
-| Fake news and propoganda from  [*The Opinion Machine: An Aggregated Analysis of Political Spam on Twitter*](https://github.com/ryan-p-larson/polititweets). | <img src="src/images/repeated-fake-news.png"></img> <img src="src/images/collusion-network-on-twitter.png"></img> |
+| *CarSentoGram: GeoVisual Text Analytics for Exploring Variation in Public Discourse on Twitter* ([demo](https://ryan-p-larson.github.io/paper/), [source](https://github.uiowa.edu/ckoylu/immigration), [publication](https://www.tandfonline.com/doi/full/10.1080/15230406.2018.1510343)). | ![First page of publication](https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/CarSentoGram-3.png) ![Topic Dashboard](https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/CarSentoGram-1.png) ![Tweet Data Pipeline](https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/CarSentoGram-2.png) |
+| Cartogrid, from [*Understanding the Effect of the Travel Ban on Immigration Tweets in the United States*](https://github.com/ryan-p-larson/gviz) in Political Networks 2017 proceedings. | <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/cartogrid.png"></img> |
+| Fake news and propoganda from  [*The Opinion Machine: An Aggregated Analysis of Political Spam on Twitter*](https://github.com/ryan-p-larson/polititweets). | <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/repeated-fake-news.png"></img> <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/collusion-network-on-twitter.png"></img> |
 
 
 <hr/>
@@ -113,12 +113,12 @@
 
 | **Project** | Preview |
 |---|---|
-| CPHB-Events: An web application for managing events at The College of Public Health. Features include classroom calendars, drag'n'drop floorplan diagrams, and interactive forms. [View live!](https://cphb-events.public-health.uiowa.edu) | ![Furniture diagrams](src/images/CPHB-Events-1.png) ![Room Calendars](src/images/CPHB-Events-2.png) ![Form Example #1](src/images/CPHB-Events-4.png) ![Form Example #2](src/images/CPHB-Events-3.png)|
-| [ACT Internship - Continuum Reporting Project](https://github.com/ryan-p-larson/continuum-reporting) | <img src="src/images/sankey-network.png"></img> |
-| [College Curriculum Diagram](https://github.com/ryan-p-larson/college-sankey) | <img src="src/images/higher-knowledge-graph.png"></img> |
-| Higher Knowledge Graph ([source](https://github.com/ryan-p-larson/higher-knowledge-graph), [demo](https://ryan-p-larson.github.io/higher-knowledge-graph)) | ![Exploring a College Course Graph](src/images/higher-knowledge-graph.gif) |
-| [International Writer's Program Mapping Project](https://www.github.com/ryan-p-larson/iwp) | <img src="src/images/iwp.gif"></img> |
-| [Geographic Visualization Portfolio](https://geog3540.github.io/ryan-p-larson/) | <img src="src/images/geoviz-portfolio.png"></img> |
-| [Hispanic Vote in Iowa](https://github.com/ryan-p-larson/DI-Hisp), see it in the [Daily Iowan](http://daily-iowan.com/2016/11/02/el-voto/). | <img src="src/images/di-2.png"></img> <img src="src/images/di-1.png"></img> <img src="src/images/di-3.png"></img> |
-| [Iowa City Arrests](https://github.com/ryan-p-larson/arrests) | <img src="src/images/arrests.gif"></img> |
-| *Real-time headpose tracking using OpenCV and webcams* (closed source :[ ) | <img src="src/images/headpose-opencv.gif"></img> |
+| CPHB-Events: An web application for managing events at The College of Public Health. Features include classroom calendars, drag'n'drop floorplan diagrams, and interactive forms. [View live!](https://cphb-events.public-health.uiowa.edu) | ![Furniture diagrams](https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/CPHB-Events-1.png) ![Room Calendars](https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/CPHB-Events-2.png) ![Form Example #1](https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/CPHB-Events-4.png) ![Form Example #2](https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/CPHB-Events-3.png)|
+| [ACT Internship - Continuum Reporting Project](https://github.com/ryan-p-larson/continuum-reporting) | <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/sankey-network.png"></img> |
+| [College Curriculum Diagram](https://github.com/ryan-p-larson/college-sankey) | <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/higher-knowledge-graph.png"></img> |
+| Higher Knowledge Graph ([source](https://github.com/ryan-p-larson/higher-knowledge-graph), [demo](https://ryan-p-larson.github.io/higher-knowledge-graph)) | ![Exploring a College Course Graph](https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/higher-knowledge-graph.gif) |
+| [International Writer's Program Mapping Project](https://www.github.com/ryan-p-larson/iwp) | <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/iwp.gif"></img> |
+| [Geographic Visualization Portfolio](https://geog3540.github.io/ryan-p-larson/) | <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/geoviz-portfolio.png"></img> |
+| [Hispanic Vote in Iowa](https://github.com/ryan-p-larson/DI-Hisp), see it in the [Daily Iowan](http://daily-iowan.com/2016/11/02/el-voto/). | <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/di-2.png"></img> <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/di-1.png"></img> <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/di-3.png"></img> |
+| [Iowa City Arrests](https://github.com/ryan-p-larson/arrests) | <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/arrests.gif"></img> |
+| *Real-time headpose tracking using OpenCV and webcams* (closed source :[ ) | <img src="https://raw.githubusercontent.com/ryan-p-larson/ryan-p-larson/master/src/images/headpose-opencv.gif"></img> |
